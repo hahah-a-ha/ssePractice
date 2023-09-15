@@ -74,7 +74,7 @@ public class  SseEmitterService {
             try {
                 emitter.send(SseEmitter.event()
                         //.name("broadcast event")
-                        //.id("broadcast event 1")
+                        .id(id)
                         //.reconnectTime(RECONNECTION_TIMEOUT)
                         .data(eventPayload, MediaType.APPLICATION_JSON));
                 log.info("sended notification, id={}, payload={}", id, eventPayload);
@@ -83,6 +83,7 @@ public class  SseEmitterService {
                 log.error("fail to send emitter id={}, {}", id, e.getMessage());
             }
         });
+        //emitterMap.get(eventPayload.toS).send
     }
 
 

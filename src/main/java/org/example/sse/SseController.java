@@ -20,6 +20,7 @@ public class SseController {
 
     //응답 mime type 은 반드시 text/event-stream 이여야 한다.
     //클라이언트로 부터 SSE subscription 을 수락한다.
+    //@GetMapping(path = "/v1/sse/subscribe/{map_id}", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
     @GetMapping(path = "/v1/sse/subscribe/{sseId}", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
     public ResponseEntity<SseEmitter> subscribe(@PathVariable String sseId) {
         //String sseId = UUID.randomUUID().toString();
@@ -32,6 +33,7 @@ public class SseController {
     public ResponseEntity<Void> broadcast(@RequestBody EventPayload eventPayload) {
         sseEmitterService.broadcast(eventPayload);
         return ResponseEntity.ok().build();
+
     }
 
 }
