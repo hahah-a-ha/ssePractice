@@ -1,6 +1,8 @@
 package org.example.sse;
 
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;
@@ -30,8 +32,8 @@ public class SseController {
 
     //eventPayload 를 SSE 로 연결된 모든 클라이언트에게 broadcasting 한다.
     @PostMapping(path = "/v1/sse/broadcast")
-    public ResponseEntity<Void> broadcast(@RequestBody EventPayload eventPayload) {
-        sseEmitterService.broadcast(eventPayload);
+    public ResponseEntity<Void> broadcast(@RequestBody EventPayLoadDto eventPayLoadDto) throws JsonProcessingException {
+        sseEmitterService.broadcast(eventPayLoadDto);
         return ResponseEntity.ok().build();
 
     }

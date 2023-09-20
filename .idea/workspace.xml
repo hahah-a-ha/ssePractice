@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f2260628-c33b-4d5c-b544-14f8a7d557ef" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sse/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sse/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sse/SseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sse/SseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sse/SseEmitterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sse/SseEmitterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sse/sseSseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sse/sseSseController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +119,7 @@
       <workItem from="1694960037825" duration="2049000" />
       <workItem from="1694995476002" duration="1197000" />
       <workItem from="1695015565231" duration="702000" />
-      <workItem from="1695173576939" duration="2508000" />
+      <workItem from="1695173576939" duration="6473000" />
     </task>
     <servers />
   </component>
