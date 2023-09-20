@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f2260628-c33b-4d5c-b544-14f8a7d557ef" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sse/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sse/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +36,8 @@
       <list>
         <option value="Record" />
         <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -113,7 +115,10 @@
       <workItem from="1694703105932" duration="298000" />
       <workItem from="1694736508465" duration="2083000" />
       <workItem from="1694743394769" duration="15638000" />
-      <workItem from="1694960037825" duration="25000" />
+      <workItem from="1694960037825" duration="2049000" />
+      <workItem from="1694995476002" duration="1197000" />
+      <workItem from="1695015565231" duration="702000" />
+      <workItem from="1695173576939" duration="2508000" />
     </task>
     <servers />
   </component>
