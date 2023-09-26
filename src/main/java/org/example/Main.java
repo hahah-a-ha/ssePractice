@@ -14,5 +14,6 @@ public class Main {
         System.out.println("it's just test");
         System.out.println("it's just test2");
         System.out.println("it's just test3");
+        System.out.println("it's just test4");
     }
 }
