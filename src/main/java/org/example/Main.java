@@ -13,5 +13,6 @@ public class Main {
         System.out.println("Hello World!");
         System.out.println("it's just test");
         System.out.println("it's just test2");
+        System.out.println("it's just test3");
     }
 }
