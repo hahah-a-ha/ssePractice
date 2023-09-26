@@ -12,5 +12,6 @@ public class Main {
         SpringApplication.run(Main.class,args);
         System.out.println("Hello World!");
         System.out.println("it's just test");
+        System.out.println("it's just test2");
     }
 }
